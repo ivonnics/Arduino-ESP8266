@@ -82,8 +82,8 @@ int timito = 5000;
 int timedelay = 5000;
 
 int i; //VariÃ¡vel para contagem
-const char* ssid = "NETGEAR50";
-const char* password = "gracefulpond393";
+const char* ssid = "Your NETWORK NAME"
+const char* password = "Your password";
  
 int ledPin = D4; // GPIO13
 WiFiServer server(80);
