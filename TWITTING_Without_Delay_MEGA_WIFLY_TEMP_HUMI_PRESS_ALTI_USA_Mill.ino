@@ -44,9 +44,9 @@ const unsigned long interval = 60000;           // interval at which SD will be 
 // will quickly become a bigger number than can be stored in an int.
 const unsigned long intervalTW = 3600000;           // interval at which TWITTER will be sent (milliseconds)
 
- const char mySSID[] = "NETGEAR50"; // Wifi network name 
- const char myPassword[] = "gracefulpond393"; // Wifi network password 
- char token[] = "3344962781-iDl7UNowAwTLoRJcAkdVEqIXmGpEZE4x8EJR0is"; // Get this from arduino-tweet.appspot.com 
+ const char mySSID[] = "Your NETWORK NAME"; // Wifi network name 
+ const char myPassword[] = "Your password"; // Wifi network password 
+ char token[] = "Your token"; // Get this from arduino-tweet.appspot.com 
    
  // Fixed settings: 
  const char site[] = "arduino-tweet.appspot.com"; // Site that sends our tweets 
@@ -102,8 +102,8 @@ WiFly wifly;
 char buf[80];
 
 // Altere as duas variáveis abaixo de acordo com sua rede Wifi 
-const char rede[] = "NETGEAR50";
-const char senha[] = "gracefulpond393";
+const char rede[] = "Your NETWORK NAME";
+const char senha[] = "Your password";
 
 void setup()
 {
